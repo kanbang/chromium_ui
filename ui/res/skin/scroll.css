@@ -1,0 +1,155 @@
+scroll
+{
+	bg-src:vscrollbar_background.png;
+	bg-conor:5 18 5 18;
+	bg-split:2;
+	bg-index:1;
+	bg-style:stretch;
+}
+scroll:normal
+{
+bg-index:0;
+}
+
+scroll:disabled
+{
+bg-index:0;
+}
+
+scroll image#scroll-top:
+{
+	img-src:;
+}
+
+scroll image#scroll-bottom
+{
+	img-src:;
+}
+
+scroll image#scroll-top:prevarrow-hot
+{
+	img-src:vscrollbar_lineup.png;
+	img-split:2;
+	img-index:0;
+	img-style:stretch;
+}
+
+scroll image#scroll-bottom:nextarrow-hot
+{
+	img-src:vscrollbar_linedown.png;
+	img-split:2;
+	img-index:0;
+	img-style:stretch;
+}
+
+scroll image#scroll-top:prevarrow-check
+{
+	img-src:vscrollbar_lineup.png;
+	img-split:2;
+	img-index:1;
+	img-style:stretch;
+}
+
+scroll image#scroll-bottom:nextarrow-check
+{
+	img-src:vscrollbar_linedown.png;
+	img-split:2;
+	img-index:1;
+	img-style:stretch;
+}
+
+scroll image#scroll-top:disabled
+{
+	img-src:;
+}
+
+scroll image#scroll-bottom:disabled
+{
+	img-src:;
+}
+
+scroll image#scroll-center
+{
+	img-src:vscrollbar_thumb.png;
+	img-conor:5 18 5 18;
+	img-split:2;
+	img-index:0;
+	img-style:stretch;
+}
+
+scroll image#scroll-center:scroll-hot
+{
+	img-index:1;
+}
+
+scroll image#scroll-center:scroll-check
+{
+	img-index:1;
+}
+
+scroll#test_horizontal_scroll
+{
+bg-src:hscrollbar_background.png;
+bg-conor:20 5 20 5;
+}
+
+scroll image#scroll-left:
+{
+	img-src:;
+}
+
+scroll image#scroll-right
+{
+	img-src:;
+}
+
+scroll image#scroll-left:prevarrow-hot
+{
+	img-src:hscrollbar_lineleft.png;
+	img-split:2;
+	img-index:0;
+	img-style:stretch;
+}
+
+scroll image#scroll-right:nextarrow-hot
+{
+	img-src:hscrollbar_lineright.png;
+	img-split:2;
+	img-index:0;
+	img-style:stretch;
+}
+
+scroll image#scroll-left:prevarrow-check
+{
+	img-src:hscrollbar_lineleft.png;
+	img-split:2;
+	img-index:1;
+	img-style:stretch;
+}
+
+scroll image#scroll-right:nextarrow-check
+{
+	img-src:hscrollbar_lineright.png;
+	img-split:2;
+	img-index:1;
+	img-style:stretch;
+}
+
+scroll image#horizontal-scroll-center
+{
+	img-src:hscrollbar_thumb.png;
+	img-conor:18 5 18 5;
+	img-split:2;
+	img-index:0;
+	img-style:stretch;
+}
+
+scroll image#horizontal-scroll-center:scroll-hot
+{
+	img-index:1;
+}
+
+scroll image#horizontal-scroll-center:scroll-check
+{
+	img-index:1;
+}

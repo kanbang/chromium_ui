@@ -1,0 +1,12 @@
+
+	<layout name="relativelayout" layout_between_child_space="5" layout_orientation="horizontal"/>
+	<labelbutton text="A" background="8fFF0000" name="A" layout_centerInparent="true"/>
+	<button text="B" layout_height="33" layout_width="100" background="image" name="B" layout_centerHorizontal="true" focusable="true">
+		<layout name="relativelayout" layout_between_child_space="5"/>
+		<label newstyle="true" layout_width="wrap_content"  layout_centerInparent="true" text="确定"/>		
+	</button>
+	<labelbutton text="C" layout_width="50" background="8fFF0000" name="C" layout_centerVertical="true"/>
+	<labelbutton text="D" layout_width="50" background="8fFF0000" name="D" layout_centerHorizontal="true" layout_alignParentBottom="true"/>
+	<labelbutton text="E" layout_width="50" background="8fFF0000" name="E" layout_centerVertical="true" layout_alignParentRight="true"/>
+	<labelbutton text="F" layout_width="50" background="8fFF0000" name="F" layout_below="A" layout_above="D" layout_toLeftOf="A" layout_alignLeft="C"/>
+	<labelbutton text="G" layout_width="50" background="8fFF0000" name="G" layout_marginBottom="@id/B 10" layout_marginTop="@id/A 10" layout_marginLeft="@id/E 10" layout_marginRight="@id/B 50" focusable="true"/>

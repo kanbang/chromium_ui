@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui\ui_resources">
+      <UniqueIdentifier>{60108B1D-1D06-DEEB-72CD-739BCA047D39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui.gyp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(OutDir)obj\global_intermediate\ui\ui_resources\gfx_resources.pak" />
+  </ItemGroup>
+</Project>

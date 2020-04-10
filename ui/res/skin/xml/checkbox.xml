@@ -1,0 +1,10 @@
+
+<layout name="linearlayout" layout_between_child_space="5"/>
+<checkbox text="Check Box1"/>
+<checkbox text="Check Box2" checked="true"/>
+<radiobutton text="raido 1"/>
+<radiobutton text="raido 2"/>
+<radiobutton text="raido 3" checked="true"/>
+<radiobutton text="raido group 1" group="1"/>
+<radiobutton text="raido group 2" group="1"/>
+<radiobutton text="raido group 3" checked="true" group="1"/>

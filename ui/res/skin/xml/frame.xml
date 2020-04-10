@@ -1,0 +1,4 @@
+
+	<layout name="relativelayout"/>
+	<label text="Test New Frame" name="systitle" layout_marginTop="5" layout_marginLeft="5" hittest="none"/>
+	<button image="5835" type="image" layout_marginRight="1" name="sysclose"/>

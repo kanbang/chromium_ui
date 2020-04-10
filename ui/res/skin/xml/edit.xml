@@ -1,0 +1,7 @@
+
+<layout name="linearlayout" layout_between_child_space="5"/>
+<edit layout_width="200" layout_height="30" password="true"/>
+<edit layout_width="200" layout_height="30" text="edit" margin="10 10"/>
+<edit layout_width="200" layout_height="30" readonly="true" text="edit2"/>
+<edit layout_width="200" layout_height="30" text-place="edit" color-place="00FF00"/>
+<edit layout_width="200" layout_height="30" text="edit" color="FF0000"/>

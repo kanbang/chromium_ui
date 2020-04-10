@@ -1,0 +1,9 @@
+
+<layout name="linearlayout" layout_between_child_space="5"/>
+<SingleSplitView layout_width="fill_parent" layout_weight="1" resize-disable="false">
+<SingleSplitView orientation="vertical" resize-disable="false" drive-offset="100">	
+	<view background="90FF0000" />
+	<view background="2000FF00" />
+</SingleSplitView>
+<view background="0000FF00" />
+</SingleSplitView>

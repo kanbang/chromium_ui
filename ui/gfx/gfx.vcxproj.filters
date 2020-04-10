@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{BE1D29E7-2090-D931-E70B-C37605E8E373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="range">
+      <UniqueIdentifier>{D3823C16-4781-3326-D544-8ACF980D662D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="range\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ozone">
+      <UniqueIdentifier>{4466B58C-3D48-288C-1476-DD15C5EEC0EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac">
+      <UniqueIdentifier>{DDBFF7CF-DBCF-B2FC-793A-DB701B563E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animation">
+      <UniqueIdentifier>{32754A8C-EDC0-67D4-C2EE-20B9F5EB0ADB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codec">
+      <UniqueIdentifier>{4A6C5824-2193-E513-3482-6EEFAD121845}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vector2d_f.h"/>
+    <ClInclude Include="color_utils.h"/>
+    <ClInclude Include="text_constants.h"/>
+    <ClInclude Include="rect_f.h"/>
+    <ClCompile Include="gfx_paths.cc"/>
+    <ClInclude Include="quad_f.h"/>
+    <ClInclude Include="favicon_size.h"/>
+    <ClInclude Include="display.h"/>
+    <ClInclude Include="canvas_skia_paint.h"/>
+    <ClCompile Include="path_win.cc"/>
+    <ClInclude Include="screen.h"/>
+    <ClInclude Include="platform_font.h"/>
+    <ClInclude Include="icon_util.h"/>
+    <ClInclude Include="path.h"/>
+    <ClCompile Include="font.cc"/>
+    <ClInclude Include="matrix3_f.h"/>
+    <ClCompile Include="rect_f.cc"/>
+    <ClCompile Include="sys_color_change_listener.cc"/>
+    <ClInclude Include="point_conversions.h"/>
+    <ClInclude Include="point_base.h"/>
+    <ClInclude Include="render_text.h"/>
+    <ClInclude Include="size.h"/>
+    <ClCompile Include="vector3d_f.cc"/>
+    <ClCompile Include="quad_f.cc"/>
+    <ClCompile Include="blit.cc"/>
+    <ClInclude Include="font_smoothing_win.h"/>
+    <ClInclude Include="canvas_paint_win.h"/>
+    <ClInclude Include="screen_win.h"/>
+    <ClInclude Include="color_profile.h"/>
+    <ClInclude Include="rect_conversions.h"/>
+    <ClCompile Include="render_text_win.cc"/>
+    <ClInclude Include="break_list.h"/>
+    <ClCompile Include="render_text.cc"/>
+    <ClCompile Include="color_profile_win.cc"/>
+    <ClCompile Include="transform_util.cc"/>
+    <ClCompile Include="insets_f.cc"/>
+    <ClInclude Include="point.h"/>
+    <ClCompile Include="canvas_win.cc"/>
+    <ClInclude Include="insets_base.h"/>
+    <ClCompile Include="matrix3_f.cc"/>
+    <ClCompile Include="platform_font_win.cc"/>
+    <ClInclude Include="canvas.h"/>
+    <ClInclude Include="font_list.h"/>
+    <ClInclude Include="gdi_util.h"/>
+    <ClCompile Include="selection_model.cc"/>
+    <ClInclude Include="platform_font_win.h"/>
+    <ClCompile Include="size_conversions.cc"/>
+    <ClInclude Include="point3_f.h"/>
+    <ClInclude Include="gpu_memory_buffer.h"/>
+    <ClCompile Include="rect_conversions.cc"/>
+    <ClCompile Include="path.cc"/>
+    <ClCompile Include="transform.cc"/>
+    <ClCompile Include="font_smoothing_win.cc"/>
+    <ClCompile Include="point_f.cc"/>
+    <ClInclude Include="transform_util.h"/>
+    <ClCompile Include="vector2d.cc"/>
+    <ClInclude Include="switches.h"/>
+    <ClCompile Include="vector2d_conversions.cc"/>
+    <ClInclude Include="rect_base_impl.h"/>
+    <ClInclude Include="vector3d_f.h"/>
+    <ClCompile Include="switches.cc"/>
+    <ClCompile Include="utf16_indexing.cc"/>
+    <ClCompile Include="skia_util.cc"/>
+    <ClInclude Include="insets.h"/>
+    <ClCompile Include="color_utils.cc"/>
+    <ClInclude Include="safe_integer_conversions.h"/>
+    <ClCompile Include="color_analysis.cc"/>
+    <ClCompile Include="scrollbar_size.cc"/>
+    <ClCompile Include="point.cc"/>
+    <ClInclude Include="text_utils.h"/>
+    <ClInclude Include="font_fallback_win.h"/>
+    <ClInclude Include="rect.h"/>
+    <ClCompile Include="interpolated_transform.cc"/>
+    <ClInclude Include="rect_base.h"/>
+    <ClInclude Include="vector2d_conversions.h"/>
+    <ClInclude Include="point_f.h"/>
+    <ClCompile Include="font_list.cc"/>
+    <ClCompile Include="vector2d_f.cc"/>
+    <ClInclude Include="transform.h"/>
+    <ClInclude Include="font.h"/>
+    <ClInclude Include="display_observer.h"/>
+    <None Include="gfx.gyp"/>
+    <ClCompile Include="display.cc"/>
+    <ClInclude Include="utf16_indexing.h"/>
+    <ClCompile Include="canvas.cc"/>
+    <ClInclude Include="box_f.h"/>
+    <ClCompile Include="sequential_id_generator.cc"/>
+    <ClInclude Include="insets_f.h"/>
+    <ClInclude Include="skia_util.h"/>
+    <ClCompile Include="size_f.cc"/>
+    <ClCompile Include="box_f.cc"/>
+    <ClInclude Include="render_text_win.h"/>
+    <ClCompile Include="skbitmap_operations.cc"/>
+    <ClInclude Include="gfx_paths.h"/>
+    <ClInclude Include="sys_color_change_listener.h"/>
+    <ClCompile Include="screen_win.cc"/>
+    <ClCompile Include="text_elider.cc"/>
+    <ClInclude Include="color_analysis.h"/>
+    <ClInclude Include="native_widget_types.h"/>
+    <ClInclude Include="scrollbar_size.h"/>
+    <ClCompile Include="point3_f.cc"/>
+    <ClCompile Include="gdi_util.cc"/>
+    <ClInclude Include="scoped_canvas.h"/>
+    <ClInclude Include="selection_model.h"/>
+    <ClCompile Include="display_observer.cc"/>
+    <ClCompile Include="gpu_memory_buffer.cc"/>
+    <ClCompile Include="canvas_paint_win.cc"/>
+    <ClInclude Include="skbitmap_operations.h"/>
+    <ClCompile Include="color_profile.cc"/>
+    <ClCompile Include="text_utils_skia.cc"/>
+    <ClInclude Include="shadow_value.h"/>
+    <ClCompile Include="insets.cc"/>
+    <ClInclude Include="sequential_id_generator.h"/>
+    <ClCompile Include="rect.cc"/>
+    <ClCompile Include="screen.cc"/>
+    <ClInclude Include="vector2d.h"/>
+    <ClInclude Include="blit.h"/>
+    <ClCompile Include="size.cc"/>
+    <ClCompile Include="font_fallback_win.cc"/>
+    <ClCompile Include="favicon_size.cc"/>
+    <ClCompile Include="shadow_value.cc"/>
+    <ClInclude Include="text_elider.h"/>
+    <ClInclude Include="size_base.h"/>
+    <ClInclude Include="path_win.h"/>
+    <ClCompile Include="point_conversions.cc"/>
+    <ClCompile Include="icon_util.cc"/>
+    <ClCompile Include="text_utils.cc"/>
+    <ClInclude Include="gfx_export.h"/>
+    <ClInclude Include="interpolated_transform.h"/>
+    <ClInclude Include="size_conversions.h"/>
+    <ClInclude Include="size_f.h"/>
+    <ClInclude Include="scoped_cg_context_save_gstate_mac.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="platform_font_pango.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="platform_font_ios.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="platform_font_pango.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <None Include="platform_font_mac.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClCompile Include="canvas_android.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="text_utils_android.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="platform_font_mac.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <None Include="platform_font_ios.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClCompile Include="pango_util.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="render_text_mac.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="pango_util.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="color_profile_mac.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="font_render_params_android.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <None Include="text_utils_ios.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClCompile Include="screen_android.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform_font_android.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="render_text_mac.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <None Include="screen_ios.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="scoped_ui_graphics_push_context_ios.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClInclude Include="scoped_ns_graphics_context_save_gstate_mac.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="render_text_linux.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <None Include="canvas_paint_mac.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClCompile Include="font_render_params_linux.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <None Include="scoped_ns_graphics_context_save_gstate_mac.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClInclude Include="scoped_ui_graphics_push_context_ios.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <None Include="screen_mac.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClCompile Include="render_text_linux.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="canvas_paint_mac.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="font_render_params_linux.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="win\dpi.cc">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClInclude Include="win\singleton_hwnd.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClCompile Include="win\singleton_hwnd.cc">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClInclude Include="win\dpi.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="win\hwnd_util.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="win\scoped_set_map_mode.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClCompile Include="win\window_impl.cc">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClInclude Include="win\window_impl.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClCompile Include="win\hwnd_util.cc">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="image\image_family.cc">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClInclude Include="image\image_family.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="image\image_skia_operations.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClCompile Include="image\canvas_image_source.cc">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\image_util.cc">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClInclude Include="image\image_png_rep.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClCompile Include="image\image_skia.cc">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\image.cc">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClInclude Include="image\canvas_image_source.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="image\image_skia_source.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="image\image_util.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClCompile Include="image\image_skia_rep.cc">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClInclude Include="image\image.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="image\image_skia.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClCompile Include="image\image_png_rep.cc">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClInclude Include="image\image_skia_rep.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClCompile Include="image\image_skia_operations.cc">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClInclude Include="image\image_skia_util_mac.h">
+      <Filter>image\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="image\image_skia_util_ios.h">
+      <Filter>image\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="image\image_skia_util_ios.mm">
+      <Filter>image\_excluded_files</Filter>
+    </None>
+    <None Include="image\image_util_ios.mm">
+      <Filter>image\_excluded_files</Filter>
+    </None>
+    <None Include="image\image_skia_util_mac.mm">
+      <Filter>image\_excluded_files</Filter>
+    </None>
+    <None Include="image\image_mac.mm">
+      <Filter>image\_excluded_files</Filter>
+    </None>
+    <None Include="image\image_ios.mm">
+      <Filter>image\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="range\range_win.cc">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClInclude Include="range\range.h">
+      <Filter>range</Filter>
+    </ClInclude>
+    <ClCompile Include="range\range.cc">
+      <Filter>range</Filter>
+    </ClCompile>
+    <None Include="range\range_mac.mm">
+      <Filter>range\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="ozone\surface_factory_ozone.h">
+      <Filter>ozone</Filter>
+    </ClInclude>
+    <ClCompile Include="ozone\surface_factory_ozone.cc">
+      <Filter>ozone</Filter>
+    </ClCompile>
+    <ClInclude Include="mac\scoped_ns_disable_screen_updates.h">
+      <Filter>mac\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\animation_delegate.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\linear_animation.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\slide_animation.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\animation_container_element.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\multi_animation.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\animation_container.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\animation.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\animation.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\throb_animation.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\linear_animation.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\multi_animation.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\throb_animation.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\animation_container.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClCompile Include="animation\tween.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\slide_animation.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClInclude Include="animation\tween.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\animation_container_observer.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="android\gfx_jni_registrar.h">
+      <Filter>android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="android\device_display_info.cc">
+      <Filter>android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="android\java_bitmap.cc">
+      <Filter>android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="android\gfx_jni_registrar.cc">
+      <Filter>android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="android\java_bitmap.h">
+      <Filter>android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="android\device_display_info.h">
+      <Filter>android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="codec\png_codec.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\jpeg_codec.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClInclude Include="codec\png_codec.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\jpeg_codec.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

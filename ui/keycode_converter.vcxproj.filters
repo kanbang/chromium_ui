@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\keycodes">
+      <UniqueIdentifier>{12B31B02-0E42-8162-B54F-E65772B458CF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui.gyp"/>
+    <ClInclude Include="base\keycodes\keycode_converter_data.h">
+      <Filter>base\keycodes</Filter>
+    </ClInclude>
+    <ClCompile Include="base\keycodes\keycode_converter.cc">
+      <Filter>base\keycodes</Filter>
+    </ClCompile>
+    <ClInclude Include="base\keycodes\keycode_converter.h">
+      <Filter>base\keycodes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

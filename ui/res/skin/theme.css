@@ -1,0 +1,178 @@
+@import "scroll.css";
+@import "label.css";
+@import "button.css";
+
+window
+{
+	whilt_bkg:whilt_bkg.png;
+	fringe_bkg:fringe_bkg.png;
+	bg-src:main.png;
+	bg-color:650 250 20 25;
+}
+
+button
+{
+	image-src:5829;
+	image-state:4;
+	image-stretch:nine;
+}
+
+component.mainframe
+{
+	padding:6 4 6 6;
+}
+
+font
+{
+	font-family:微软雅黑;
+}
+font.normal
+{
+	font-size:18;
+}
+
+font.edit
+{
+	font-size:18;
+}
+
+font normal bold
+{
+	font-weight:bold;
+	font-style:italic;
+}
+
+font.title
+{
+font-size:20;
+font-weight:bold;
+}
+
+theme-skin
+{
+	zipfile:D:\dev\CrossSystem\LU(version1.0)\LightUI\LightUI\LightBrowser\LightBrowser\res\img.zip;
+}
+
+edit
+{
+	bg-src:edit_bg.png;
+	bg-conor:20 5 50 5;
+	bg-style:stretch;
+
+	text-align:left;
+	text-color:#0;
+	text-valign:vcenter;
+	text-style:singleline;
+	text-font:font.edit;
+}
+
+edit:focused
+{
+}
+
+edit:selected
+{
+text-color:#FFFFFF;
+}
+edit:imme-state
+{
+text-color:#FF0000;
+}
+
+component#folder_ctn
+{
+	bg-src:folder_bg.png;
+	bg-conor:5 5 5 5;
+	bg-style:stretch;
+}
+
+radiobutton
+{	
+	padding:5 0;
+	bg-conor:5 5 5 5;
+	bg-style:stretch;
+}
+
+radiobutton:checked
+{
+	bg-src:tabcheck.png;
+}
+
+radiobutton:hot
+{
+	bg-src:tabhighlight.png;
+}
+
+radiobutton:selectedhot
+{
+	bg-src:tabcheck.png;
+}
+
+radiobutton:selected
+{
+	bg-src:tabcheck.png;
+}
+
+
+radiobutton:selectedchecked
+{
+	bg-src:tabcheck.png;
+}
+
+radiobutton label
+{
+	text-align:left;
+	text-color:#FFFFFF;
+	text-valign:vcenter;
+	text-style:singleline;
+	text-font:font.edit;
+	glow-size:2;
+	glow-color:#464f53;
+}
+
+button.tabclose image
+{
+	img-src:tab_close_normal.png;
+}
+
+button.tabclose image:hot
+{
+	img-src:tab_close_mouseover.png;
+}
+
+button.tabclose image:checked
+{
+	img-src:tab_close_down.png;
+}
+
+checkbox
+{	
+	bg-conor:5 5 5 5;
+	bg-style:stretch;
+}
+
+checkbox:checked
+{
+	bg-src:listhead_down.png;
+}
+
+checkbox:hot
+{
+	bg-src:listhead_highlight.png;
+}
+
+checkbox:selectedhot
+{
+	bg-src:listhead_down.png;
+}
+
+checkbox:selected
+{
+	bg-src:listhead_down.png;
+}
+
+
+checkbox:selectedchecked
+{
+	bg-src:listhead_down.png;
+}

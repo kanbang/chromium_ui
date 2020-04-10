@@ -1,0 +1,152 @@
+image
+{
+	test1:21;
+	test2:3;
+}
+	
+Button
+{
+	image-src:5829;
+	image-state:4;
+	image-stretch:nine;
+}
+
+button#A
+{
+	test5:5;
+}
+
+button#A.image#B
+{
+	test6:6;
+}
+
+button#A.image#B:hot
+{
+	test7:7;
+}
+
+button#close-button image
+{
+	img-src:btn_close_normal.png;
+}
+
+button#close-button image:hot
+{
+	img-src:btn_close_highlight.png;
+}
+
+button#close-button image:checked
+{
+	img-src:btn_close_down.png;
+}
+
+button#close-button image:disabled
+{
+	img-src:btn_close_disable.png;
+}
+
+button#max-button image
+{
+	img-src:btn_max_normal.png;
+}
+
+button#max-button image:hot
+{
+	img-src:btn_max_highlight.png;
+}
+
+button#max-button image:checked
+{
+	img-src:btn_max_down.png;
+}
+
+button#min-button image
+{
+	img-src:btn_mini_normal.png;
+}
+
+button#min-button image:hot
+{
+	img-src:btn_mini_highlight.png;
+}
+
+button#min-button image:checked
+{
+	img-src:btn_mini_down.png;
+}
+
+button#max-button.restore image
+{
+	img-src:btn_restore_normal.png;
+}
+
+button#max-button.restore image:hot
+{
+	img-src:btn_restore_highlight.png;
+}
+
+button#max-button.restore image:checked
+{
+	img-src:btn_restore_down.png;
+}
+
+button#prev-button image
+{
+	img-src:forwardnormal.png;
+}
+
+button#prev-button image:hot
+{
+	img-src:forwardHover.png;
+}
+
+button#prev-button image:checked
+{
+	img-src:forwardPushed.png;
+}
+
+button#back-button image
+{
+	img-src:forwardnormal.png;
+}
+
+button#back-button image:hot
+{
+	img-src:forwardHover.png;
+}
+
+button#back-button image:checked
+{
+	img-src:forwardPushed.png;
+}
+
+button#prev-button image
+{
+	img-src:backwardnormal.png;
+}
+
+button#prev-button image:hot
+{
+	img-src:backwardHover.png;
+}
+
+button#prev-button image:checked
+{
+	img-src:backwardPushed.png;
+}
+
+button#add-tab image
+{
+	img-src:tab_add_normal.png;
+}
+
+button#add-tab image:hot
+{
+	img-src:tab_add_mouseover.png;
+}
+
+button#add-tab image:checked
+{
+	img-src:tab_add_down.png;
+}

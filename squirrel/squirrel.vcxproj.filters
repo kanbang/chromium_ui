@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="squirrel">
+      <UniqueIdentifier>{0B58BC71-87D8-5A44-3929-23D327A597CC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="squirrel.gyp"/>
+    <ClCompile Include="squirrel\sqfuncstate.cpp">
+      <Filter>squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="squirrel\sqcompiler.cpp">
+      <Filter>squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="squirrel\sqclass.cpp">
+      <Filter>squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="squirrel\sqmem.cpp">
+      <Filter>squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="squirrel\sqvm.cpp">
+      <Filter>squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="squirrel\sqdebug.cpp">
+      <Filter>squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="squirrel\sqobject.cpp">
+      <Filter>squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="squirrel\sqstate.cpp">
+      <Filter>squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="squirrel\sqtable.cpp">
+      <Filter>squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="squirrel\sqlexer.cpp">
+      <Filter>squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="squirrel\sqapi.cpp">
+      <Filter>squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="squirrel\sqbaselib.cpp">
+      <Filter>squirrel</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

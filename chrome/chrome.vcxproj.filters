@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\content">
+      <UniqueIdentifier>{4D624FB1-28CC-8F22-E07A-F14373BC38A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\content\app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\content\public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\content\public\app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chrome_content">
+      <UniqueIdentifier>{1F54E3EA-4675-9A01-B4C4-1632E327F592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{108D0AB6-6EDA-EE8B-EB08-8E22C029E581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\render_host">
+      <UniqueIdentifier>{615CDB32-6526-E5C2-62C9-1D5818633C01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\fullscreen">
+      <UniqueIdentifier>{BFAFC837-3FA4-31CC-B16E-B63AF0A9FBC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\views">
+      <UniqueIdentifier>{D23515F3-31E8-1B27-FABB-5B45DAAF113D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\views\tabs">
+      <UniqueIdentifier>{9A19A12F-4186-05CC-17A3-2E285F023938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\views\status_icons">
+      <UniqueIdentifier>{B7156388-5402-1FFB-0F60-6AB6B50D59D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\views\frame">
+      <UniqueIdentifier>{4ED8AC07-3D55-A2F9-785B-6A9302343CA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\views\location_bar">
+      <UniqueIdentifier>{7396AC1E-F909-B219-BABE-23A477680755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\views\omnibox">
+      <UniqueIdentifier>{1D0CB406-E338-C5DE-32BA-4713583CF4AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\views\touch_uma">
+      <UniqueIdentifier>{800E44E4-3B45-21DE-2879-7AA7D6A0ADDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\views\tab_contents">
+      <UniqueIdentifier>{C7B8871F-0957-0FBD-1EC5-44F9BD8039C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\views\bookmarks">
+      <UniqueIdentifier>{8AB75F6D-0D48-254C-033D-7AC3A80E5BE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\views\panels">
+      <UniqueIdentifier>{3F2A0943-9D28-8085-0EB4-1759662E5224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\views\webview">
+      <UniqueIdentifier>{D422A624-23E6-A9C2-9D05-D1BA72C30C64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\tabs">
+      <UniqueIdentifier>{9A19A12F-4186-05CC-17A3-2E285F023938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\find_bar">
+      <UniqueIdentifier>{E223F9C2-6041-C6CF-1179-57F348A83092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\zoom">
+      <UniqueIdentifier>{06E1AA2A-3C13-5FE1-8311-219905008B67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\theme">
+      <UniqueIdentifier>{4E5567A3-B9FA-49AA-E57B-A59C138D08E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\omnibox">
+      <UniqueIdentifier>{1D0CB406-E338-C5DE-32BA-4713583CF4AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\bookmarks">
+      <UniqueIdentifier>{8AB75F6D-0D48-254C-033D-7AC3A80E5BE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\tab_contents">
+      <UniqueIdentifier>{C7B8871F-0957-0FBD-1EC5-44F9BD8039C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\toolbar">
+      <UniqueIdentifier>{7640D4C3-A66D-3989-6A37-B7D34EDD50AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\status_icons">
+      <UniqueIdentifier>{B7156388-5402-1FFB-0F60-6AB6B50D59D2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="theme_strings_id.h"/>
+    <ClCompile Include="theme_resources_browser.cc"/>
+    <ClInclude Include="theme_resources_id.h"/>
+    <ClInclude Include="theme_resources_browser.h"/>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="browser_main.cc"/>
+    <ClInclude Include="chrome_export.h"/>
+    <ClCompile Include="..\content\app\browser_main_parts.cc">
+      <Filter>..\content\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\content\app\startup_helper_win.cc">
+      <Filter>..\content\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\content\app\content_main.cc">
+      <Filter>..\content\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\content\app\content_client.cc">
+      <Filter>..\content\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\content\app\content_browser_client.cc">
+      <Filter>..\content\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\content\app\content_main_runner.cc">
+      <Filter>..\content\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\content\app\content_main_delegate.cc">
+      <Filter>..\content\app</Filter>
+    </ClCompile>
+    <ClInclude Include="..\content\public\app\content_main_runner.h">
+      <Filter>..\content\public\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\content\public\app\content_browser_client.h">
+      <Filter>..\content\public\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\content\public\app\content_main_delegate.h">
+      <Filter>..\content\public\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\content\public\app\startup_helper_win.h">
+      <Filter>..\content\public\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\content\public\app\content_client.h">
+      <Filter>..\content\public\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\content\public\app\browser_main_parts.h">
+      <Filter>..\content\public\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\content\public\app\content_main.h">
+      <Filter>..\content\public\app</Filter>
+    </ClInclude>
+    <ClCompile Include="chrome_content\chrome_content_main_delegate.cc">
+      <Filter>chrome_content</Filter>
+    </ClCompile>
+    <ClInclude Include="chrome_content\chrome_content_main_delegate.h">
+      <Filter>chrome_content</Filter>
+    </ClInclude>
+    <ClCompile Include="chrome_content\chrome_content_content_browser_client.cc">
+      <Filter>chrome_content</Filter>
+    </ClCompile>
+    <ClInclude Include="chrome_content\chrome_content_content_browser_client.h">
+      <Filter>chrome_content</Filter>
+    </ClInclude>
+    <ClCompile Include="chrome_content\chrome_content_browser_main_parts.cc">
+      <Filter>chrome_content</Filter>
+    </ClCompile>
+    <ClInclude Include="chrome_content\chrome_content_browser_main_parts.h">
+      <Filter>chrome_content</Filter>
+    </ClInclude>
+    <ClInclude Include="app\chrome_exe_resource.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ResourceCompile Include="app\chrome_exe.rc">
+      <Filter>app</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="app\chrome_exe_version.rc">
+      <Filter>app</Filter>
+    </ResourceCompile>
+    <ClInclude Include="render\site_instance.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\web_contents_view_port.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClCompile Include="render\web_contents_view_win.cc">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\browsing_instance.cc">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClInclude Include="render\web_contents_view_win.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\browsing_instance.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\site_instance_impl.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\browser_context.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClCompile Include="render\site_instance_impl.cc">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClInclude Include="render\web_contents_view_guest.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClCompile Include="render\web_contents_view_guest.cc">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClInclude Include="render\render_host\render_widget_host_impl.h">
+      <Filter>render\render_host</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_host\render_widget_host_delegate.h">
+      <Filter>render\render_host</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_host\render_view_host_delegate_view.h">
+      <Filter>render\render_host</Filter>
+    </ClInclude>
+    <ClCompile Include="render\render_host\render_view_host_impl.cc">
+      <Filter>render\render_host</Filter>
+    </ClCompile>
+    <ClInclude Include="render\render_host\render_widget_host.h">
+      <Filter>render\render_host</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_host\render_view_host.h">
+      <Filter>render\render_host</Filter>
+    </ClInclude>
+    <ClCompile Include="render\render_host\render_widget_host_delegate.cc">
+      <Filter>render\render_host</Filter>
+    </ClCompile>
+    <ClInclude Include="render\render_host\render_widget_host_view_base.h">
+      <Filter>render\render_host</Filter>
+    </ClInclude>
+    <ClCompile Include="render\render_host\render_widget_host_impl.cc">
+      <Filter>render\render_host</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_host\render_widget_host_view_base.cc">
+      <Filter>render\render_host</Filter>
+    </ClCompile>
+    <ClInclude Include="render\render_host\render_widget_host_view_port.h">
+      <Filter>render\render_host</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_host\render_widget_host_view_win.h">
+      <Filter>render\render_host</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_host\render_widget_host_view.h">
+      <Filter>render\render_host</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_host\render_view_host_impl.h">
+      <Filter>render\render_host</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_host\render_view_host_manager.h">
+      <Filter>render\render_host</Filter>
+    </ClInclude>
+    <ClCompile Include="render\render_host\render_view_host_manager.cc">
+      <Filter>render\render_host</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_host\render_widget_host_view_win.cc">
+      <Filter>render\render_host</Filter>
+    </ClCompile>
+    <ClInclude Include="render\render_host\render_widget_host_iterator.h">
+      <Filter>render\render_host</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\browser_tab_strip_model_delegate.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\browser_list_observer.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\status_bubble.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\chrome_web_modal_dialog_manager_delegate.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\browser_iterator.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\browser.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\browser.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\browser_win.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\chrome_web_modal_dialog_manager_delegate.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\browser_tab_contents.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\browser_tab_contents.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\browser_finder.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\browser_tab_restore_service_delegate.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\browser_iterator.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\browser_instant_controller.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\browser_window.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\browser_tabstrip.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\browser_toolbar_model_delegate.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\browser_content_setting_bubble_model_delegate.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\host_desktop.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\browser_finder.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\browser_list.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\browser_tabstrip.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\browser_window_state.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\invalidate_type.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\browser_tab_restore_service_delegate.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\browser_toolbar_model_delegate.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\browser_tab_strip_model_delegate.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\browser_window_state.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\browser_tabrestore.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\browser_tabrestore.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\host_desktop.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\browser_content_setting_bubble_model_delegate.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\browser_list.cc">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\browser_instant_controller.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\fullscreen\fullscreen_exit_bubble_type.cc">
+      <Filter>ui\fullscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fullscreen\fullscreen_controller.cc">
+      <Filter>ui\fullscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fullscreen\fullscreen_exit_bubble.cc">
+      <Filter>ui\fullscreen</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\fullscreen\fullscreen_exit_bubble_type.h">
+      <Filter>ui\fullscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fullscreen\fullscreen_controller.h">
+      <Filter>ui\fullscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fullscreen\fullscreen_exit_bubble.h">
+      <Filter>ui\fullscreen</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\tab_icon_view.cc">
+      <Filter>ui\views</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\home_button.cc">
+      <Filter>ui\views</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\reload_button.h">
+      <Filter>ui\views</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\app_menu_button_win.h">
+      <Filter>ui\views</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\status_bubble_views.h">
+      <Filter>ui\views</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\theme_image_mapper.cc">
+      <Filter>ui\views</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\home_button.h">
+      <Filter>ui\views</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\app_menu_button_win.cc">
+      <Filter>ui\views</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\wrench_toolbar_button.cc">
+      <Filter>ui\views</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\avatar_label.cc">
+      <Filter>ui\views</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\accelerator_table.cc">
+      <Filter>ui\views</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\accelerator_table.h">
+      <Filter>ui\views</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\reload_button.cc">
+      <Filter>ui\views</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\detachable_toolbar_view.cc">
+      <Filter>ui\views</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\fullscreen_exit_bubble_views.h">
+      <Filter>ui\views</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\toolbar_view.cc">
+      <Filter>ui\views</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\toolbar_view.h">
+      <Filter>ui\views</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\tab_icon_view.h">
+      <Filter>ui\views</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\theme_image_mapper.h">
+      <Filter>ui\views</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\status_bubble_views.cc">
+      <Filter>ui\views</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\fullscreen_exit_bubble_views.cc">
+      <Filter>ui\views</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\detachable_toolbar_view.h">
+      <Filter>ui\views</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\wrench_toolbar_button.h">
+      <Filter>ui\views</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\wrench_menu.cc">
+      <Filter>ui\views</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\avatar_label.h">
+      <Filter>ui\views</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\wrench_menu.h">
+      <Filter>ui\views</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\tabs\dragged_tab_view.cc">
+      <Filter>ui\views\tabs</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\tabs\tab_strip_controller.h">
+      <Filter>ui\views\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\tabs\native_view_photobooth_win.h">
+      <Filter>ui\views\tabs</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\tabs\tab.cc">
+      <Filter>ui\views\tabs</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\tabs\tab_renderer_data.h">
+      <Filter>ui\views\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\tabs\tab_strip.h">
+      <Filter>ui\views\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\tabs\native_view_photobooth.h">
+      <Filter>ui\views\tabs</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\tabs\dock_info_views.cc">
+      <Filter>ui\views\tabs</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\tabs\stacked_tab_strip_layout.h">
+      <Filter>ui\views\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\tabs\tab_controller.h">
+      <Filter>ui\views\tabs</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\tabs\dock_info_win.cc">
+      <Filter>ui\views\tabs</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\tabs\dragged_tab_view.h">
+      <Filter>ui\views\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\tabs\browser_tab_strip_controller.h">
+      <Filter>ui\views\tabs</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\tabs\native_view_photobooth_win.cc">
+      <Filter>ui\views\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\tabs\stacked_tab_strip_layout.cc">
+      <Filter>ui\views\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\tabs\tab_drag_controller.cc">
+      <Filter>ui\views\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\tabs\tab_strip.cc">
+      <Filter>ui\views\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\tabs\tab_renderer_data.cc">
+      <Filter>ui\views\tabs</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\tabs\tab.h">
+      <Filter>ui\views\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\tabs\tab_drag_controller.h">
+      <Filter>ui\views\tabs</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\tabs\browser_tab_strip_controller.cc">
+      <Filter>ui\views\tabs</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\status_icons\status_icon_win.h">
+      <Filter>ui\views\status_icons</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\status_icons\status_tray_win.cc">
+      <Filter>ui\views\status_icons</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\status_icons\status_tray_win.h">
+      <Filter>ui\views\status_icons</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\status_icons\status_icon_win.cc">
+      <Filter>ui\views\status_icons</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\frame\app_panel_browser_frame_view.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\frame\browser_non_client_frame_view.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\frame\system_menu_insertion_delegate_win.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\frame\immersive_mode_controller_factory.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\frame\browser_view.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\frame\browser_frame_common_win.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\frame\opaque_browser_frame_view_layout.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\frame\top_container_view.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\frame\opaque_browser_frame_view.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\frame\glass_browser_frame_view.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\frame\taskbar_decorator.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\frame\immersive_mode_controller.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\frame\app_panel_browser_frame_view.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\frame\minimize_button_metrics_win.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\frame\opaque_browser_frame_view_platform_specific.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\frame\system_menu_insertion_delegate_win.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\frame\minimize_button_metrics_win.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\frame\browser_view_layout.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\frame\system_menu_model_delegate.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\frame\browser_frame.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\frame\contents_container.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\frame\system_menu_model_delegate.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\frame\opaque_browser_frame_view_platform_specific.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\frame\browser_frame.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\frame\browser_frame_win.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\frame\native_browser_frame_factory_win.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\frame\browser_root_view.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\frame\taskbar_decorator_win.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\frame\opaque_browser_frame_view_layout_delegate.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\frame\browser_frame_win.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\frame\opaque_browser_frame_view.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\frame\browser_non_client_frame_view.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\frame\immersive_mode_controller_stub.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\frame\native_browser_frame_factory.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\frame\browser_view.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\frame\system_menu_model_builder.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\frame\native_browser_frame_factory.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\frame\immersive_mode_controller_stub.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\frame\browser_non_client_frame_view_factory_win.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\frame\system_menu_model_builder.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\frame\popup_non_client_frame_view.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\frame\browser_view_layout_delegate.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\frame\opaque_browser_frame_view_layout.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\frame\glass_browser_frame_view.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\frame\scroll_end_effect_controller.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\frame\browser_root_view.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\frame\browser_frame_common_win.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\frame\native_browser_frame.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\frame\browser_view_layout.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\frame\popup_non_client_frame_view.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\frame\contents_container.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\frame\immersive_mode_controller.h">
+      <Filter>ui\views\frame</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\frame\top_container_view.cc">
+      <Filter>ui\views\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\location_bar\page_info_helper.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\location_bar\star_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\location_bar\location_bar_decoration_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\location_bar\page_action_image_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\location_bar\ev_bubble_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\location_bar\content_setting_image_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\location_bar\page_info_helper.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\location_bar\keyword_hint_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\location_bar\selected_keyword_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\location_bar\script_bubble_icon_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\location_bar\icon_label_bubble_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\location_bar\page_action_with_badge_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\location_bar\zoom_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\location_bar\selected_keyword_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\location_bar\star_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\location_bar\generated_credit_card_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\location_bar\page_action_with_badge_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\location_bar\location_icon_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\location_bar\location_bar_layout.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\location_bar\generated_credit_card_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\location_bar\icon_label_bubble_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\location_bar\location_bar_layout.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\location_bar\location_bar_decoration_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\location_bar\open_pdf_in_reader_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\location_bar\keyword_hint_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\location_bar\page_action_image_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\location_bar\content_setting_image_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\location_bar\location_bar_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\location_bar\zoom_bubble_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\location_bar\zoom_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\location_bar\script_bubble_icon_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\location_bar\zoom_bubble_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\location_bar\location_bar_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\location_bar\open_pdf_in_reader_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\location_bar\ev_bubble_view.h">
+      <Filter>ui\views\location_bar</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\location_bar\location_icon_view.cc">
+      <Filter>ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\omnibox\omnibox_view_views.h">
+      <Filter>ui\views\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\omnibox\omnibox_result_view.h">
+      <Filter>ui\views\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\omnibox\omnibox_result_view_model.h">
+      <Filter>ui\views\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\omnibox\touch_omnibox_popup_contents_view.h">
+      <Filter>ui\views\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\omnibox\omnibox_view_win.h">
+      <Filter>ui\views\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\omnibox\omnibox_views.h">
+      <Filter>ui\views\omnibox</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\omnibox\touch_omnibox_popup_contents_view.cc">
+      <Filter>ui\views\omnibox</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\omnibox\omnibox_view_views.cc">
+      <Filter>ui\views\omnibox</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\omnibox\omnibox_popup_contents_view.h">
+      <Filter>ui\views\omnibox</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\omnibox\omnibox_result_view.cc">
+      <Filter>ui\views\omnibox</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\omnibox\omnibox_views.cc">
+      <Filter>ui\views\omnibox</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\omnibox\omnibox_view_win.cc">
+      <Filter>ui\views\omnibox</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\omnibox\omnibox_popup_contents_view.cc">
+      <Filter>ui\views\omnibox</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\touch_uma\touch_uma.cc">
+      <Filter>ui\views\touch_uma</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\touch_uma\touch_uma.h">
+      <Filter>ui\views\touch_uma</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\tab_contents\web_drag_bookmark_handler_win.cc">
+      <Filter>ui\views\tab_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\tab_contents\chrome_web_contents_view_delegate_views.cc">
+      <Filter>ui\views\tab_contents</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\tab_contents\chrome_web_contents_view_delegate_views.h">
+      <Filter>ui\views\tab_contents</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\tab_contents\web_drag_bookmark_handler_win.h">
+      <Filter>ui\views\tab_contents</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\bookmarks\bookmark_bar_view.h">
+      <Filter>ui\views\bookmarks</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\bookmarks\bookmark_bar_view.cc">
+      <Filter>ui\views\bookmarks</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\panels\taskbar_window_thumbnailer_win.h">
+      <Filter>ui\views\panels</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\panels\panel_stack_view.cc">
+      <Filter>ui\views\panels</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\panels\panel_frame_view.cc">
+      <Filter>ui\views\panels</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\views\panels\panel_view.cc">
+      <Filter>ui\views\panels</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\panels\panel_stack_view.h">
+      <Filter>ui\views\panels</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\panels\panel_view.h">
+      <Filter>ui\views\panels</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\panels\taskbar_window_thumbnailer_win.cc">
+      <Filter>ui\views\panels</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\views\panels\panel_frame_view.h">
+      <Filter>ui\views\panels</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\views\webview\webview.h">
+      <Filter>ui\views\webview</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\views\webview\webview.cc">
+      <Filter>ui\views\webview</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\tabs\tab_strip_model_order_controller.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tabs\pinned_tab_service.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tabs\hover_tab_selector.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tabs\dock_info.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\tabs\tab_menu_model.cc">
+      <Filter>ui\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\tabs\hover_tab_selector.cc">
+      <Filter>ui\tabs</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\tabs\tab_strip_model_observer.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\tabs\pinned_tab_service.cc">
+      <Filter>ui\tabs</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\tabs\tab_menu_model.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tabs\tab_strip_layout_type.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tabs\test_tab_strip_model_delegate.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tabs\tab_strip_layout_type_prefs.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\tabs\test_tab_strip_model_delegate.cc">
+      <Filter>ui\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\tabs\tab_resources.cc">
+      <Filter>ui\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\tabs\tab_strip_layout_type_prefs.cc">
+      <Filter>ui\tabs</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\tabs\pinned_tab_service_factory.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tabs\tab_strip_model.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\tabs\tab_strip_model_observer.cc">
+      <Filter>ui\tabs</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\tabs\pinned_tab_codec.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tabs\tab_utils.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tabs\tab_strip_model_utils.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\tabs\tab_strip_model_order_controller.cc">
+      <Filter>ui\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\tabs\tab_strip_model_utils.cc">
+      <Filter>ui\tabs</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\tabs\tab_resources.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tabs\tab_strip_model_delegate.h">
+      <Filter>ui\tabs</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\tabs\tab_utils.cc">
+      <Filter>ui\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\tabs\pinned_tab_codec.cc">
+      <Filter>ui\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\tabs\tab_strip_model.cc">
+      <Filter>ui\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\tabs\dock_info.cc">
+      <Filter>ui\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\tabs\pinned_tab_service_factory.cc">
+      <Filter>ui\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\find_bar\find_tab_helper.cc">
+      <Filter>ui\find_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\find_bar\find_bar_state_factory.cc">
+      <Filter>ui\find_bar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\find_bar\find_notification_details.h">
+      <Filter>ui\find_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\find_bar\find_bar_state_factory.h">
+      <Filter>ui\find_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\find_bar\find_bar_state.h">
+      <Filter>ui\find_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\find_bar\find_bar.h">
+      <Filter>ui\find_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\find_bar\find_tab_helper.h">
+      <Filter>ui\find_bar</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\find_bar\find_bar_controller.cc">
+      <Filter>ui\find_bar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\find_bar\find_bar_controller.h">
+      <Filter>ui\find_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\zoom\zoom_controller.h">
+      <Filter>ui\zoom</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\zoom\zoom_observer.h">
+      <Filter>ui\zoom</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\zoom\zoom_controller.cc">
+      <Filter>ui\zoom</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\theme\theme_properties.h">
+      <Filter>ui\theme</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\theme\theme_properties.cc">
+      <Filter>ui\theme</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\omnibox\alternate_nav_infobar_delegate.cc">
+      <Filter>ui\omnibox</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\omnibox\omnibox_edit_model.cc">
+      <Filter>ui\omnibox</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\omnibox\autocomplete_match.cc">
+      <Filter>ui\omnibox</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\omnibox\omnibox_edit_controller.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\omnibox\omnibox_view.cc">
+      <Filter>ui\omnibox</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\omnibox\autocomplete_provider_listener.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\omnibox\omnibox_view.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\omnibox\omnibox_current_page_delegate_impl.cc">
+      <Filter>ui\omnibox</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\omnibox\autocomplete_match_type.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\omnibox\autocomplete_input.cc">
+      <Filter>ui\omnibox</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\omnibox\autocomplete_provider.cc">
+      <Filter>ui\omnibox</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\omnibox\omnibox_popup_model.cc">
+      <Filter>ui\omnibox</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\omnibox\omnibox_popup_view.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\omnibox\autocomplete_input.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\omnibox\autocomplete_controller_delegate.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\omnibox\omnibox_edit_model.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\omnibox\autocomplete_controller.cc">
+      <Filter>ui\omnibox</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\omnibox\omnibox_focus_state.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\omnibox\omnibox_popup_model_observer.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\omnibox\autocomplete_provider.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\omnibox\autocomplete_controller.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\omnibox\autocomplete_match.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\omnibox\alternate_nav_infobar_delegate.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\omnibox\autocomplete_result.cc">
+      <Filter>ui\omnibox</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\omnibox\omnibox_navigation_observer.cc">
+      <Filter>ui\omnibox</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\omnibox\autocomplete_result.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\omnibox\omnibox_popup_model.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\omnibox\omnibox_controller.cc">
+      <Filter>ui\omnibox</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\omnibox\omnibox_controller.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\omnibox\autocomplete_match_type.cc">
+      <Filter>ui\omnibox</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\omnibox\omnibox_current_page_delegate.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\omnibox\omnibox_navigation_observer.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\omnibox\location_bar.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\omnibox\omnibox_edit_controller.cc">
+      <Filter>ui\omnibox</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\omnibox\location_bar_util.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\omnibox\omnibox_current_page_delegate_impl.h">
+      <Filter>ui\omnibox</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\omnibox\location_bar_util.cc">
+      <Filter>ui\omnibox</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\bookmarks\bookmark_editor.cc">
+      <Filter>ui\bookmarks</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\bookmarks\bookmark_drag_drop.cc">
+      <Filter>ui\bookmarks</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\bookmarks\bookmark_tab_helper_delegate.h">
+      <Filter>ui\bookmarks</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\bookmarks\bookmark_bubble_sign_in_delegate.cc">
+      <Filter>ui\bookmarks</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\bookmarks\bookmark_bar_constants.h">
+      <Filter>ui\bookmarks</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\bookmarks\bookmark_context_menu_controller.h">
+      <Filter>ui\bookmarks</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\bookmarks\bookmark_context_menu_controller.cc">
+      <Filter>ui\bookmarks</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\bookmarks\bookmark_prompt_controller.h">
+      <Filter>ui\bookmarks</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\bookmarks\bookmark_drag_drop.h">
+      <Filter>ui\bookmarks</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\bookmarks\bookmark_bubble_sign_in_delegate.h">
+      <Filter>ui\bookmarks</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\bookmarks\bookmark_prompt_controller.cc">
+      <Filter>ui\bookmarks</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\bookmarks\bookmark_bar.h">
+      <Filter>ui\bookmarks</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\bookmarks\bookmark_bubble_delegate.h">
+      <Filter>ui\bookmarks</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\bookmarks\bookmark_editor.h">
+      <Filter>ui\bookmarks</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\bookmarks\bookmark_browsertest.cc">
+      <Filter>ui\bookmarks</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\bookmarks\bookmark_utils.h">
+      <Filter>ui\bookmarks</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\bookmarks\bookmark_tab_helper.h">
+      <Filter>ui\bookmarks</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\bookmarks\bookmark_bar_instructions_delegate.h">
+      <Filter>ui\bookmarks</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\bookmarks\bookmark_utils.cc">
+      <Filter>ui\bookmarks</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\bookmarks\bookmark_tab_helper_delegate.cc">
+      <Filter>ui\bookmarks</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\bookmarks\recently_used_folders_combo_model.cc">
+      <Filter>ui\bookmarks</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\bookmarks\recently_used_folders_combo_model.h">
+      <Filter>ui\bookmarks</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\bookmarks\bookmark_tab_helper.cc">
+      <Filter>ui\bookmarks</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\tab_contents\core_tab_helper.cc">
+      <Filter>ui\tab_contents</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\tab_contents\core_tab_helper.h">
+      <Filter>ui\tab_contents</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tab_contents\tab_contents_iterator.h">
+      <Filter>ui\tab_contents</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tab_contents\core_tab_helper_delegate.h">
+      <Filter>ui\tab_contents</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tab_contents\chrome_web_contents_view_delegate.h">
+      <Filter>ui\tab_contents</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\tab_contents\tab_contents_iterator.cc">
+      <Filter>ui\tab_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\tab_contents\core_tab_helper_delegate.cc">
+      <Filter>ui\tab_contents</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\toolbar\encoding_menu_controller.h">
+      <Filter>ui\toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\toolbar\toolbar_model_impl.h">
+      <Filter>ui\toolbar</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\toolbar\encoding_menu_controller.cc">
+      <Filter>ui\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\toolbar\recent_tabs_sub_menu_model.cc">
+      <Filter>ui\toolbar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\toolbar\toolbar_model_delegate.h">
+      <Filter>ui\toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\toolbar\toolbar_model.h">
+      <Filter>ui\toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\toolbar\bookmark_sub_menu_model.h">
+      <Filter>ui\toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\toolbar\back_forward_menu_model.h">
+      <Filter>ui\toolbar</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\toolbar\bookmark_sub_menu_model.cc">
+      <Filter>ui\toolbar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\toolbar\recent_tabs_sub_menu_model.h">
+      <Filter>ui\toolbar</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\toolbar\back_forward_menu_model.cc">
+      <Filter>ui\toolbar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\toolbar\toolbar_model_security_level_list.h">
+      <Filter>ui\toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\toolbar\wrench_icon_painter.h">
+      <Filter>ui\toolbar</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\toolbar\wrench_icon_painter.cc">
+      <Filter>ui\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\toolbar\wrench_menu_model.cc">
+      <Filter>ui\toolbar</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\toolbar\wrench_menu_model.h">
+      <Filter>ui\toolbar</Filter>
+    </ClInclude>
+    <ClCompile Include="ui\toolbar\toolbar_model_impl.cc">
+      <Filter>ui\toolbar</Filter>
+    </ClCompile>
+    <ClInclude Include="common\child_process_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\view_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\page_transition_types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\render_view_host_delegate.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\child_process_launcher.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\child_process_host_delegate.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\page_transition_types_list.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\render_process_host_impl.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\content_switches.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\child_process_host_delegate.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\render_process_host_factory.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\page_transition_types.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\view_messages.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\context_menu_params.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\render_process_host.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\child_process_host.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\content_switches.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\render_process_host_impl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\render_view_host_delegate.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\context_menu_params.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\child_process_launcher.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\child_process_data.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\child_process_host_impl.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\child_process_host_impl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_thread.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_process_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents_delegate.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\profile.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_process_sub_thread.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\web_contents_observer.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\web_contents_observer.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\chrome_command_ids.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_thread_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_process.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browser_process.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_util_win.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_shutdown.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\navigation_type.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\web_contents_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_process_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\platform_util_win.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\profile.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\command_updater.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\navigation_controller_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\command_updater.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\web_contents_user_data.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_thread_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fullscreen.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_util_win.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_navigator.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\command_updater_delegate.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_commands.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fullscreen_win.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_command_controller.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\platform_util.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\navigation_entry_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents_delegate.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browser_commands.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_navigator.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents_view_delegate.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\command_observer.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\web_contents.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\navigation_controller.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\web_contents_view.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_process_sub_thread.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_shutdown.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\navigation_controller_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browser_thread_delegate.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\navigation_entry.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\navigation_entry_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\navigation_controller.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_command_controller.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\status_icons\status_icon_menu_model.h">
+      <Filter>browser\status_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\status_icons\status_icon_observer.h">
+      <Filter>browser\status_icons</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\status_icons\status_tray.cc">
+      <Filter>browser\status_icons</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\status_icons\status_icon_menu_model.cc">
+      <Filter>browser\status_icons</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\status_icons\desktop_notification_balloon.h">
+      <Filter>browser\status_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\status_icons\status_icon.h">
+      <Filter>browser\status_icons</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\status_icons\desktop_notification_balloon.cc">
+      <Filter>browser\status_icons</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\status_icons\status_tray.h">
+      <Filter>browser\status_icons</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\status_icons\status_icon.cc">
+      <Filter>browser\status_icons</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

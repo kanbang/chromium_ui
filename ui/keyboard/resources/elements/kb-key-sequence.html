@@ -1,0 +1,66 @@
+<!--
+  -- Copyright 2013 The Chromium Authors. All rights reserved.
+  -- Use of this source code is governed by a BSD-style license that can be
+  -- found in the LICENSE file.
+  -->
+
+<polymer-element name="kb-key-sequence"
+    attributes="keys hintTexts keyCodes invert">
+  <template>
+    <style>
+      @host {
+        * {
+          display: none;
+        }
+      }
+    </style>
+    <kb-key-codes id="keyCodeMetadata"></kb-key-codes>
+  </template>
+  <script>
+    Polymer('kb-key-sequence', {
+      /**
+       * Generates the DOM structure to replace (expand) this kb-key-sequence.
+       */
+      generateDom: function() {
+        var result;
+        if (this.keys) {
+          var newKeys = this.keys;
+          var newHintTexts = this.hintTexts;
+          if (newHintTexts && newKeys.length != newHintTexts.length) {
+            console.error('keys and hintTexts do not match');
+            return;
+          }
+          var keyCodes = this.keyCodes || newKeys;
+          if (keyCodes && newKeys.length != keyCodes.length) {
+             console.error('keys and keyCodes do not match');
+            return;
+          }
+          var replacement = document.createDocumentFragment();
+          for (var i = 0; i < newKeys.length; i++) {
+            var key = document.createElement('kb-key');
+            key.innerText = newKeys[i];
+            key.accents = newKeys[i];
+            if (newHintTexts)
+              key.hintText = newHintTexts[i];
+            var keyCodeIndex = keyCodes[i];
+
+            if (this.invert) {
+              key.invert = true;
+              key.char = newKeys[i];
+              keyCodeIndex = key.hintText;
+            }
+            var state = this.$.keyCodeMetadata.GetKeyCodeAndModifiers(
+                keyCodeIndex);
+            if (state) {
+              key.keyCode = state.keyCode;
+              key.shiftModifier = state.shiftModifier;
+            }
+            replacement.appendChild(key);
+          }
+          result = replacement;
+        }
+        return result;
+      }
+    });
+  </script>
+</polymer-element>

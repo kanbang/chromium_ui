@@ -1,0 +1,5 @@
+
+<layout name="linearlayout" layout_between_child_space="5"/>
+<label text="Label1" tooltip="label1"/>
+<label text="Label2" color="FF0000" layout_width="fill_parent" solidborder="2 FFFF00"/>
+<link text="link" underline="false" color-press="00FF00"/>

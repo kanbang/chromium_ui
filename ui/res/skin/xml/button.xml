@@ -1,0 +1,9 @@
+
+<layout name="linearlayout" layout_between_child_space="5"/>
+<labelbutton text="Label Button" image="5730" image-hot="5731" enable="false"/>
+<textbutton text="Text Button" focusable="true" icon="5730" icon-space="2" icon-place="left" icon-hot="5731" icon-push="5732" border="native"/>
+<labelbutton text="Label ButtonLabel ButtonLabel ButtonLabel Button" image="5730" image-hot="5731" image-push="5732" layout_width="100" elide="end" style="system"/>
+<labelbutton text="Label ButtonLabel ButtonLabel ButtonLabel Button" layout_width="100" color="FF00FF00" elide="none"/>
+<imagebutton layout_width="100" layout_height="30" image="5731" image-hot="5732" image-push="5733" align="center" valign="center" image-overlay="5730"/>
+<button image="5831" type="text" mask="5829" padding="5 10 5 10" text="New Button" icon-space="10"/>
+<bluebutton text="Blue Button"/>

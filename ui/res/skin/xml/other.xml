@@ -1,0 +1,5 @@
+
+<layout name="linearlayout" layout_between_child_space="5"/>
+<progress layout_width="fill_parent" layout_height="30" range="1 100" value="50"/>
+<slider/>
+<throbber />

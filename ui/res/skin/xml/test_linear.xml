@@ -1,0 +1,13 @@
+<layout name="linearlayout" layout_between_child_space="5"/>
+<combobox layout_width="fill_parent" layout_height="30" name="type">
+	<item text="Button" />
+	<item text="Label,Link" />
+	<item text="CheckBox,RadioButton"/>
+	<item text="textfield"/>
+	<item text="SplitView" />
+	<item text="Porgress,slider,Throbbor" />
+	<item text="ScrollView" />
+	<item text="TreeView" />
+</combobox>
+<view layout_width="fill_parent" layout_weight="1" name="ctn">
+</view>

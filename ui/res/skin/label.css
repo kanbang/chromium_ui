@@ -1,0 +1,16 @@
+label#window-title
+{
+	text-color:#FFFFFF;
+	text-valign:vcenter;
+	text-style:singleline;
+	text-font:font.title;
+}
+
+Label
+{
+	text-text:测试Label;
+	text-elide:0;
+	text-color:FFFF0000;
+	text-align: center;
+	text-valign:top;
+}

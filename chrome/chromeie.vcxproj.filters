@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="iecore">
+      <UniqueIdentifier>{FCC726E4-FD8D-F720-1219-D22BC04937A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iecore\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iecore\trident">
+      <UniqueIdentifier>{9FDE1DDC-FAA5-2E9B-6FEB-193FAE47CD44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iecore\trident\WebBrowserHost">
+      <UniqueIdentifier>{926E42C4-BE07-57B4-E54B-926B997FC6AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iecore\trident\Dom">
+      <UniqueIdentifier>{853F82CE-589F-8AA7-7284-BBD731EFB2D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iecore\trident\WebBrowserControl">
+      <UniqueIdentifier>{2F5152B4-359F-98F5-6954-5E0382EEB37F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iecore\trident\patch">
+      <UniqueIdentifier>{DF03325D-6BFD-4890-B756-E871B6F6C46A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iecore\child">
+      <UniqueIdentifier>{E3C40506-007B-C2D8-0589-97418FE2E754}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iecore.gypi"/>
+    <ClCompile Include="iecore\iecore.cc">
+      <Filter>iecore</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\iecore_message.h">
+      <Filter>iecore</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\iecore.h">
+      <Filter>iecore</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\third_party\comhook.h">
+      <Filter>iecore\third_party</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\third_party\comhook.cpp">
+      <Filter>iecore\third_party</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\third_party\detourshook.h">
+      <Filter>iecore\third_party</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\preheader.h">
+      <Filter>iecore\trident</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\stdafx.h">
+      <Filter>iecore\trident</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\trident\WebBrowserHost\XWnd.cpp">
+      <Filter>iecore\trident\WebBrowserHost</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\trident\WebBrowserHost\IEBrowserWnd.h">
+      <Filter>iecore\trident\WebBrowserHost</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\WebBrowserHost\Browserdef.h">
+      <Filter>iecore\trident\WebBrowserHost</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\WebBrowserHost\XWnd.h">
+      <Filter>iecore\trident\WebBrowserHost</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\trident\WebBrowserHost\IEBrowserWnd.cpp">
+      <Filter>iecore\trident\WebBrowserHost</Filter>
+    </ClCompile>
+    <ClCompile Include="iecore\trident\Dom\HTMLOperation.cpp">
+      <Filter>iecore\trident\Dom</Filter>
+    </ClCompile>
+    <ClCompile Include="iecore\trident\Dom\CallJsFunc.cpp">
+      <Filter>iecore\trident\Dom</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\trident\Dom\HTMLOperation.h">
+      <Filter>iecore\trident\Dom</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\Dom\CallJsFunc.h">
+      <Filter>iecore\trident\Dom</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\WebBrowserControl\WebBrowser.h">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\WebBrowserControl\SecurityManager.h">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\trident\WebBrowserControl\CDocHostUI.cpp">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClCompile>
+    <ClCompile Include="iecore\trident\WebBrowserControl\SecurityManager.cpp">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\trident\WebBrowserControl\IDownloadManager.h">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\WebBrowserControl\DownloadManager.h">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\trident\WebBrowserControl\ExternalObj.cpp">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClCompile>
+    <ClCompile Include="iecore\trident\WebBrowserControl\DownloadManager.cpp">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\trident\WebBrowserControl\EventObserver.h">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\WebBrowserControl\BrowserEvent.h">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\trident\WebBrowserControl\BrowserEvent.cpp">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\trident\WebBrowserControl\NewWindowManager.h">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\trident\WebBrowserControl\WebBrowser.cpp">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\trident\WebBrowserControl\ExternalObj.h">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\WebBrowserControl\CDocHostUI.h">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\trident\WebBrowserControl\NewWindowManager.cpp">
+      <Filter>iecore\trident\WebBrowserControl</Filter>
+    </ClCompile>
+    <ClCompile Include="iecore\trident\patch\HtmlDocumentHookApi.cpp">
+      <Filter>iecore\trident\patch</Filter>
+    </ClCompile>
+    <ClCompile Include="iecore\trident\patch\SystemInfo.cpp">
+      <Filter>iecore\trident\patch</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\trident\patch\CompatibilityView.h">
+      <Filter>iecore\trident\patch</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\trident\patch\UserAgentHelper.cpp">
+      <Filter>iecore\trident\patch</Filter>
+    </ClCompile>
+    <ClCompile Include="iecore\trident\patch\CompatibilityView.cpp">
+      <Filter>iecore\trident\patch</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\trident\patch\CompatibilityViewRule.h">
+      <Filter>iecore\trident\patch</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\trident\patch\CompatibilityViewRule.cpp">
+      <Filter>iecore\trident\patch</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\trident\patch\HookApi.h">
+      <Filter>iecore\trident\patch</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\patch\ExceptionHandler.h">
+      <Filter>iecore\trident\patch</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\patch\SyncCookieHelper.h">
+      <Filter>iecore\trident\patch</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\patch\des.h">
+      <Filter>iecore\trident\patch</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\trident\patch\HtmlWindowHookApi.cpp">
+      <Filter>iecore\trident\patch</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\trident\patch\UserAgentHelper.h">
+      <Filter>iecore\trident\patch</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\patch\HtmlWindowHookApi.h">
+      <Filter>iecore\trident\patch</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\trident\patch\ExceptionHandler.cpp">
+      <Filter>iecore\trident\patch</Filter>
+    </ClCompile>
+    <ClCompile Include="iecore\trident\patch\HookApi.cpp">
+      <Filter>iecore\trident\patch</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\trident\patch\HtmlDocumentHookApi.h">
+      <Filter>iecore\trident\patch</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\trident\patch\SyncCookieHelper.cpp">
+      <Filter>iecore\trident\patch</Filter>
+    </ClCompile>
+    <ClCompile Include="iecore\trident\patch\PatchIEMode.cpp">
+      <Filter>iecore\trident\patch</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\trident\patch\PatchIEMode.h">
+      <Filter>iecore\trident\patch</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\patch\F12DevTool.h">
+      <Filter>iecore\trident\patch</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\trident\patch\SystemInfo.h">
+      <Filter>iecore\trident\patch</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\trident\patch\des.cc">
+      <Filter>iecore\trident\patch</Filter>
+    </ClCompile>
+    <ClCompile Include="iecore\child\render_view.cc">
+      <Filter>iecore\child</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\child\render_widget.h">
+      <Filter>iecore\child</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\child\child_thread.h">
+      <Filter>iecore\child</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\child\render_view.h">
+      <Filter>iecore\child</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\child\render_widget.cc">
+      <Filter>iecore\child</Filter>
+    </ClCompile>
+    <ClCompile Include="iecore\child\message_router.cc">
+      <Filter>iecore\child</Filter>
+    </ClCompile>
+    <ClCompile Include="iecore\child\browser_messages.cc">
+      <Filter>iecore\child</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\child\message_router.h">
+      <Filter>iecore\child</Filter>
+    </ClInclude>
+    <ClInclude Include="iecore\child\browser_messages.h">
+      <Filter>iecore\child</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\child\child_thread.cc">
+      <Filter>iecore\child</Filter>
+    </ClCompile>
+    <ClInclude Include="iecore\child\child_process.h">
+      <Filter>iecore\child</Filter>
+    </ClInclude>
+    <ClCompile Include="iecore\child\child_process.cc">
+      <Filter>iecore\child</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ipc_listener.h"/>
+    <ClInclude Include="ipc_message_macros.h"/>
+    <ClInclude Include="ipc_switches.h"/>
+    <ClInclude Include="ipc_message_utils.h"/>
+    <ClInclude Include="ipc_sync_message_filter.h"/>
+    <ClInclude Include="param_traits_log_macros.h"/>
+    <ClCompile Include="ipc_message.cc"/>
+    <ClInclude Include="ipc_export.h"/>
+    <ClCompile Include="ipc_channel_proxy.cc"/>
+    <ClInclude Include="ipc_logging.h"/>
+    <ClInclude Include="ipc_forwarding_message_filter.h"/>
+    <ClCompile Include="ipc_sync_channel.cc"/>
+    <ClInclude Include="ipc_sender.h"/>
+    <ClCompile Include="ipc_logging.cc"/>
+    <ClInclude Include="ipc_channel_handle.h"/>
+    <ClCompile Include="ipc_message_utils.cc"/>
+    <ClInclude Include="struct_constructor_macros.h"/>
+    <ClInclude Include="ipc_param_traits.h"/>
+    <ClInclude Include="param_traits_read_macros.h"/>
+    <None Include="ipc.gyp"/>
+    <ClInclude Include="ipc_channel_win.h"/>
+    <ClInclude Include="param_traits_macros.h"/>
+    <ClInclude Include="ipc_channel_reader.h"/>
+    <ClInclude Include="ipc_platform_file.h"/>
+    <ClInclude Include="ipc_sync_channel.h"/>
+    <ClInclude Include="unix_domain_socket_util.h"/>
+    <ClCompile Include="ipc_switches.cc"/>
+    <ClInclude Include="ipc_message_start.h"/>
+    <ClCompile Include="ipc_channel_reader.cc"/>
+    <ClInclude Include="ipc_channel_proxy.h"/>
+    <ClCompile Include="ipc_sync_message.cc"/>
+    <ClInclude Include="struct_destructor_macros.h"/>
+    <ClCompile Include="ipc_forwarding_message_filter.cc"/>
+    <ClInclude Include="ipc_sync_message.h"/>
+    <ClInclude Include="ipc_message.h"/>
+    <ClInclude Include="ipc_descriptors.h"/>
+    <ClCompile Include="ipc_channel_win.cc"/>
+    <ClCompile Include="ipc_channel.cc"/>
+    <ClInclude Include="param_traits_write_macros.h"/>
+    <ClCompile Include="ipc_sync_message_filter.cc"/>
+    <ClInclude Include="ipc_channel_factory.h"/>
+    <ClCompile Include="ipc_platform_file.cc"/>
+    <ClInclude Include="ipc_channel.h"/>
+    <ClInclude Include="file_descriptor_set_posix.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="file_descriptor_set_posix.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="ipc_channel_posix.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="ipc_channel_posix.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="ipc_channel_factory.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="unix_domain_socket_util.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

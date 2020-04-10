@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="viewer">
+      <UniqueIdentifier>{3548F730-0867-A60B-1F9E-82137EB71454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="win8.gyp"/>
+    <ClCompile Include="viewer\metro_viewer_constants.cc">
+      <Filter>viewer</Filter>
+    </ClCompile>
+    <ClInclude Include="viewer\metro_viewer_constants.h">
+      <Filter>viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="viewer\metro_viewer_process_host.h">
+      <Filter>viewer</Filter>
+    </ClInclude>
+    <ClCompile Include="viewer\metro_viewer_process_host.cc">
+      <Filter>viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
