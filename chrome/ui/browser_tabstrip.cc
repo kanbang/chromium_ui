@@ -33,6 +33,8 @@ void AddBlankTabAt(Browser* browser, int index, bool foreground) {
   //CoreTabHelper* core_tab_helper =
   //    CoreTabHelper::FromWebContents(params.target_contents);
   //core_tab_helper->set_new_tab_start_time(new_tab_start_time);
+
+
   content::WebContents::CreateParams params(browser->profile());
   content::WebContents* content = content::WebContentsImpl::CreateWithOpener(params);
   content->SetDelegate(browser);

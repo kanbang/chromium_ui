@@ -65,8 +65,13 @@ bool ChromeMainDelegate::BasicStartupComplete(int* exit_code) {
 
 int ChromeMainDelegate::RunProcess(const std::string& process_type)
 {
-  if(process_type == "renderer")
-    return IECore_wWinMain(NULL, NULL, NULL, 0);
+    if (process_type == "renderer")
+    {
+        //kk
+        return 0;
+
+		//return IECore_wWinMain(NULL, NULL, NULL, 0);
+    }
  
   InitializeResourceBundle();
   if (!base::MessageLoop::current())

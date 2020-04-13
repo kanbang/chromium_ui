@@ -10,34 +10,25 @@
     <Filter Include="keycodes">
       <UniqueIdentifier>{12B31B02-0E42-8162-B54F-E65772B458CF}</UniqueIdentifier>
     </Filter>
-    <Filter Include="keycodes\_excluded_files">
-      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="cocoa">
-      <UniqueIdentifier>{7DE7C50E-B7F9-3610-CB61-C0F25CD5170C}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="cocoa\_excluded_files">
-      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="event_utils.h"/>
-    <ClCompile Include="latency_info.cc"/>
-    <ClInclude Include="event_dispatcher.h"/>
-    <ClCompile Include="event_switches.cc"/>
-    <ClCompile Include="event_handler.cc"/>
-    <ClInclude Include="event_handler.h"/>
-    <ClCompile Include="event_utils.cc"/>
-    <ClInclude Include="event_constants.h"/>
-    <ClInclude Include="event_target.h"/>
-    <ClCompile Include="event_target.cc"/>
-    <ClInclude Include="events_export.h"/>
-    <ClInclude Include="latency_info.h"/>
-    <ClCompile Include="event.cc"/>
-    <ClInclude Include="event.h"/>
-    <ClInclude Include="event_switches.h"/>
-    <ClCompile Include="event_dispatcher.cc"/>
-    <None Include="events.gyp"/>
+    <ClInclude Include="event_utils.h" />
+    <ClCompile Include="latency_info.cc" />
+    <ClInclude Include="event_dispatcher.h" />
+    <ClCompile Include="event_switches.cc" />
+    <ClCompile Include="event_handler.cc" />
+    <ClInclude Include="event_handler.h" />
+    <ClCompile Include="event_utils.cc" />
+    <ClInclude Include="event_constants.h" />
+    <ClInclude Include="event_target.h" />
+    <ClCompile Include="event_target.cc" />
+    <ClInclude Include="events_export.h" />
+    <ClInclude Include="latency_info.h" />
+    <ClCompile Include="event.cc" />
+    <ClInclude Include="event.h" />
+    <ClInclude Include="event_switches.h" />
+    <ClCompile Include="event_dispatcher.cc" />
+    <None Include="events.gyp" />
     <ClCompile Include="gestures\gesture_recognizer_impl.cc">
       <Filter>gestures</Filter>
     </ClCompile>
@@ -104,17 +95,5 @@
     <ClCompile Include="keycodes\keyboard_code_conversion_win.cc">
       <Filter>keycodes</Filter>
     </ClCompile>
-    <ClInclude Include="keycodes\keyboard_code_conversion_mac.h">
-      <Filter>keycodes\_excluded_files</Filter>
-    </ClInclude>
-    <ClCompile Include="keycodes\keyboard_code_conversion_android.cc">
-      <Filter>keycodes\_excluded_files</Filter>
-    </ClCompile>
-    <None Include="keycodes\keyboard_code_conversion_mac.mm">
-      <Filter>keycodes\_excluded_files</Filter>
-    </None>
-    <None Include="cocoa\events_mac.mm">
-      <Filter>cocoa\_excluded_files</Filter>
-    </None>
   </ItemGroup>
 </Project>

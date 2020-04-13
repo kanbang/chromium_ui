@@ -278,12 +278,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="events.gyp" />
-    <None Include="keycodes\keyboard_code_conversion_mac.mm">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </None>
-    <None Include="cocoa\events_mac.mm">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="event_utils.h" />
@@ -307,9 +301,6 @@
     <ClInclude Include="keycodes\keyboard_code_conversion.h" />
     <ClInclude Include="keycodes\keyboard_code_conversion_win.h" />
     <ClInclude Include="keycodes\keyboard_code_conversion_android.h" />
-    <ClInclude Include="keycodes\keyboard_code_conversion_mac.h">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="latency_info.cc" />
@@ -329,9 +320,6 @@
     <ClCompile Include="win\events_win.cc" />
     <ClCompile Include="keycodes\keyboard_code_conversion.cc" />
     <ClCompile Include="keycodes\keyboard_code_conversion_win.cc" />
-    <ClCompile Include="keycodes\keyboard_code_conversion_android.cc">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\skia\skia.vcxproj">

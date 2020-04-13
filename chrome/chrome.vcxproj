@@ -526,36 +526,96 @@
     <ClInclude Include="common\child_process_launcher.h" />
     <ClInclude Include="common\child_process_data.h" />
     <ClInclude Include="common\child_process_host_impl.h" />
-    <ClInclude Include="browser\browser_thread.h" />
-    <ClInclude Include="browser\browser_process_impl.h" />
-    <ClInclude Include="browser\web_contents_delegate.h" />
-    <ClInclude Include="browser\profile.h" />
-    <ClInclude Include="browser\browser_process_sub_thread.h" />
-    <ClInclude Include="browser\web_contents_observer.h" />
-    <ClInclude Include="browser\chrome_command_ids.h" />
-    <ClInclude Include="browser\browser_process.h" />
-    <ClInclude Include="browser\browser_util_win.h" />
-    <ClInclude Include="browser\browser_shutdown.h" />
-    <ClInclude Include="browser\navigation_type.h" />
-    <ClInclude Include="browser\web_contents_impl.h" />
-    <ClInclude Include="browser\command_updater.h" />
-    <ClInclude Include="browser\navigation_controller_impl.h" />
-    <ClInclude Include="browser\web_contents_user_data.h" />
-    <ClInclude Include="browser\browser_thread_impl.h" />
-    <ClInclude Include="browser\fullscreen.h" />
-    <ClInclude Include="browser\command_updater_delegate.h" />
-    <ClInclude Include="browser\platform_util.h" />
-    <ClInclude Include="browser\browser_commands.h" />
-    <ClInclude Include="browser\browser_navigator.h" />
-    <ClInclude Include="browser\web_contents_view_delegate.h" />
-    <ClInclude Include="browser\command_observer.h" />
-    <ClInclude Include="browser\web_contents_view.h" />
-    <ClInclude Include="browser\browser_thread_delegate.h" />
-    <ClInclude Include="browser\navigation_entry.h" />
-    <ClInclude Include="browser\web_contents.h" />
-    <ClInclude Include="browser\navigation_entry_impl.h" />
-    <ClInclude Include="browser\navigation_controller.h" />
-    <ClInclude Include="browser\browser_command_controller.h" />
+    <ClInclude Include="browser\browser_thread.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\browser_process_impl.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents_delegate.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\profile.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\browser_process_sub_thread.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents_observer.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\chrome_command_ids.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\browser_process.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\browser_util_win.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\browser_shutdown.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\navigation_type.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents_impl.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\command_updater.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\navigation_controller_impl.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents_user_data.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\browser_thread_impl.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\fullscreen.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\command_updater_delegate.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\platform_util.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\browser_commands.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\browser_navigator.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents_view_delegate.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\command_observer.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents_view.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\browser_thread_delegate.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\navigation_entry.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\navigation_entry_impl.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\navigation_controller.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="browser\browser_command_controller.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="browser\status_icons\status_icon_menu_model.h" />
     <ClInclude Include="browser\status_icons\status_icon_observer.h" />
     <ClInclude Include="browser\status_icons\desktop_notification_balloon.h" />
@@ -751,26 +811,66 @@
     <ClCompile Include="common\context_menu_params.cc" />
     <ClCompile Include="common\content_switches.cc" />
     <ClCompile Include="common\child_process_host_impl.cc" />
-    <ClCompile Include="browser\web_contents_observer.cc" />
-    <ClCompile Include="browser\browser_thread_impl.cc" />
-    <ClCompile Include="browser\browser_process.cc" />
-    <ClCompile Include="browser\web_contents_impl.cc" />
-    <ClCompile Include="browser\browser_process_impl.cc" />
-    <ClCompile Include="browser\platform_util_win.cc" />
-    <ClCompile Include="browser\profile.cc" />
-    <ClCompile Include="browser\command_updater.cc" />
-    <ClCompile Include="browser\browser_util_win.cc" />
-    <ClCompile Include="browser\browser_navigator.cc" />
-    <ClCompile Include="browser\browser_commands.cc" />
-    <ClCompile Include="browser\fullscreen_win.cc" />
-    <ClCompile Include="browser\browser_command_controller.cc" />
-    <ClCompile Include="browser\navigation_entry_impl.cc" />
-    <ClCompile Include="browser\web_contents_delegate.cc" />
-    <ClCompile Include="browser\web_contents.cc" />
-    <ClCompile Include="browser\navigation_controller.cc" />
-    <ClCompile Include="browser\browser_process_sub_thread.cc" />
-    <ClCompile Include="browser\browser_shutdown.cc" />
-    <ClCompile Include="browser\navigation_controller_impl.cc" />
+    <ClCompile Include="browser\web_contents_observer.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\browser_thread_impl.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\browser_process.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents_impl.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\browser_process_impl.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\platform_util_win.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\profile.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\command_updater.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\browser_util_win.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\browser_navigator.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\browser_commands.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\fullscreen_win.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\browser_command_controller.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\navigation_entry_impl.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents_delegate.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\navigation_controller.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\browser_process_sub_thread.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\browser_shutdown.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="browser\navigation_controller_impl.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="browser\status_icons\status_tray.cc" />
     <ClCompile Include="browser\status_icons\status_icon_menu_model.cc" />
     <ClCompile Include="browser\status_icons\desktop_notification_balloon.cc" />
@@ -828,20 +928,12 @@
       <Project>{D44CBC8D-BBB9-5337-D957-557CAA30CCE2}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="chromeie.vcxproj">
-      <Project>{2F18F092-3B95-7DFC-9149-5711E92965E0}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="..\base\base_static.vcxproj">
       <Project>{389A9186-B2B0-A7FC-9DAD-3A48BF240951}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\base\allocator\allocator_extension_thunks.vcxproj">
       <Project>{BC48C056-ACC9-02E7-13E4-ADC442DE6C2A}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\testing\gtest_prod.vcxproj">
-      <Project>{8B8D9113-8938-DA49-3035-D94C6741E6F2}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\third_party\modp_b64\modp_b64.vcxproj">

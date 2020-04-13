@@ -1158,12 +1158,6 @@
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\testing\gtest_prod.vcxproj">
-      <Project>{8B8D9113-8938-DA49-3035-D94C6741E6F2}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>

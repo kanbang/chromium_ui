@@ -5,7 +5,7 @@
 inline HWND GetWindow( IWebBrowser2* spBrowser )
 {
 	HWND hwndWB = NULL;
-	spBrowser->get_HWND( (long*)&hwndWB );
+	spBrowser->get_HWND( (SHANDLE_PTR*)&hwndWB );
 
 	if( NULL==hwndWB )
 	{

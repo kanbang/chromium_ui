@@ -32,7 +32,6 @@
         '../ui/views/views.gyp:views',
         '../ui/ui.gyp:shell_dialogs',
         '../ipc/ipc.gyp:ipc',
-        'iecore.gypi:chromeie',
       ],
       'include_dirs': [
         '..',
